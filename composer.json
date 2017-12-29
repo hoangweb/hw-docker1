@@ -1,0 +1,20 @@
+{
+    "require": {
+        "evenement/evenement": "^3.0 || ^2.0 || ^1.0",
+        "react/dns": "^0.4.11",
+        "react/event-loop": "^1.0 || ^0.5 || ^0.4 || ^0.3.5",
+        "react/stream": "^1.0 || ^0.7.1",
+        "react/promise": "^2.1 || ^1.2",
+        "react/promise-timer": "~1.0",
+        "react/socket": "0.8.6",
+        "dnode/dnode": "*",
+        "ext-soap":"*",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "php": "5.6.32",        
+        "ext-mysql":"*"
+    },
+    "require-dev":{
+        
+    }
+}
