@@ -1,7 +1,7 @@
 <?php
 require __DIR__. '/vendor/autoload.php';
 
-$port = $port = getenv('PORT')? getenv('PORT'): 2020;//33636,63,443,8000
+$port = $port = getenv('PORT')? getenv('PORT'): 8080;//33636,63,443,8000
 $interval = 10;	//10s
 
 $loop = React\EventLoop\Factory::create();

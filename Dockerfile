@@ -1,7 +1,7 @@
-FROM php:7.0-cli
+FROM centos/php-71-centos7
 ENV MY_VERSION 1.0
-COPY . /var/www/html
-WORKDIR /var/www/html
-VOLUME /var/www/html
-EXPOSE 2020
-CMD ["php", "./server.php"]
+COPY . /opt/app-root/src/server
+WORKDIR /opt/app-root/src
+VOLUME /opt/app-root/src
+EXPOSE 8080
+CMD ["php", "/opt/app-root/src/server/server.php"]
